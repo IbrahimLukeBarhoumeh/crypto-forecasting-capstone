@@ -128,8 +128,6 @@ A typical advanced approach (e.g., XGB) yields 10–25% lower RMSE in mid/long h
 
 
 ## Project Structure
-
-```plaintext
 crypto-forecasting-capstone/
 ├── data/
 │   ├── ADA_features.csv
