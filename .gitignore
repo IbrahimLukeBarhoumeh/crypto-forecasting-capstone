@@ -1,25 +1,16 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-*.egg
-*.pkl
-*.h5
+# file: .gitignore
 
-# Environments
-venv/
+# Ignore environment files & secrets
 .env
-.venv/
-ENV/
+
+# Ignore virtual environment folders
+venv/
 env/
+.venv/
+ 
+# Ignore Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# VSCode
-.vscode/
-
-# OS Files
-.DS_Store
-Thumbs.db
-
+# ...any other folders you want to exclude
