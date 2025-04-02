@@ -126,38 +126,6 @@ Baselines serve as an easy reference point to confirm that advanced ML methods a
 
 A typical advanced approach (e.g., XGB) yields 10–25% lower RMSE in mid/long horizons relative to ARIMA, validating the advantage of ensemble-based ML methods for crypto price forecasting.
 
-
-## Project Structure
-'''crypto-forecasting-capstone/
-├── data/
-│   ├── ADA_features.csv
-│   ├── ...
-│   └── advanced_tuning_results.csv
-├── models/
-│   ├── ADA_Close_tplus_7_XGB.pkl
-│   ├── ...
-│   └── final_feature_columns.json
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── ...
-│   └── 07_advanced_tuning_no_talib.ipynb
-├── scripts/
-│   ├── fetch_and_predict.py
-│   ├── finalize_and_persist_models.py
-│   └── ...
-├── flask_app/
-│   └── app.py
-├── frontend/
-│   ├── package.json
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── PredictForm.jsx
-│   │   ├── CMCMarketData.jsx
-│   │   └── index.css
-│   └── ...
-├── .env            # contains CMC_API_KEY=...
-├── requirements.txt
-└── README.md
 ---
 
 ## Usage Instructions
