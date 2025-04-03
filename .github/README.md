@@ -190,6 +190,8 @@ Below is a sample side-by-side bar plot (from the notebooks) comparing RMSE for 
 
 ---
 ## Visuals (Ex from traning, each coin has its own chart notebooks sections of code)
+![image](https://github.com/user-attachments/assets/6f6a588a-02d3-4eae-bec6-a6e45c2c6cd2)
+
 ![image](https://github.com/user-attachments/assets/f07abaa9-d4bc-4b56-9208-7f736f9c6277)
 
 ![image](https://github.com/user-attachments/assets/226e32f9-f22c-4f85-9291-44b1d1206987)
