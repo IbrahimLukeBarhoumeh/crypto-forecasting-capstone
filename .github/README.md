@@ -279,40 +279,39 @@ These features are computed within the notebooks or in the final scripts, ensuri
 **Visual Example**  
 Below is a sample side-by-side bar plot (from the notebooks) comparing RMSE for Naive vs. RF vs. XGB for ADA across different horizons:
 
-=== Saved advanced multi-horizon results to: ../data\advanced_ratio_multihorizon_results_optimized.csv ===
-    Coin     Horizon       RF_RMSE        RF_MAE      XGB_RMSE       XGB_MAE
-0    ADA   Close_t+1      0.025445      0.016708      0.028275      0.018721
-1    ADA   Close_t+7      0.070317      0.048611      0.076173      0.052353
-2    ADA  Close_t+30      0.199159      0.127662      0.203981      0.125602
-3    ADA  Close_t+90      0.324284      0.217756      0.316206      0.209011
-4   AVAX   Close_t+1      2.337897      1.626471      2.633515      1.840575
-5   AVAX   Close_t+7      6.405296      4.671014      6.516587      4.870371
-6   AVAX  Close_t+30     13.767214     10.297995     13.147630      9.960141
-7   AVAX  Close_t+90     25.241952     22.064108     26.568110     21.474070
-8    BCH   Close_t+1     19.518295     12.755353     19.133087     12.330786
-9    BCH   Close_t+7     49.220721     35.098500     49.544626     32.602816
-10   BCH  Close_t+30    101.694522     73.490258     86.247121     60.785779
-11   BCH  Close_t+90    262.559334    180.404877    243.643506    163.855384
-12   BNB   Close_t+1     28.021811     17.768952     36.483627     23.102802
-13   BNB   Close_t+7     96.993655     60.002880     65.989992     46.168318
-14   BNB  Close_t+30    121.536073    100.739636    116.616001     98.340332
-15   BNB  Close_t+90    199.940286    174.566718    198.963942    174.262128
-16   BTC   Close_t+1   7386.967207   3532.142089   7557.049216   3700.352238
-17   BTC   Close_t+7  11818.634941   8935.650945  10770.625642   7778.203816
-18   BTC  Close_t+30  18585.162594  15604.170734  19051.825121  15744.287903
-19   BTC  Close_t+90  31147.444943  28158.079955  31081.836708  28051.561308
-20  DOGE   Close_t+1      0.017629      0.008519      0.016633      0.009730
-21  DOGE   Close_t+7      0.041519      0.025003      0.035785      0.021859
-22  DOGE  Close_t+30      0.080432      0.048503      0.076161      0.044252
-23  DOGE  Close_t+90      0.106775      0.061322      0.106922      0.061793
-24   DOT   Close_t+1      0.371437      0.257835      0.484433      0.286401
-25   DOT   Close_t+7      1.643077      1.009809      1.493748      0.980484
-26   DOT  Close_t+30      4.340223      2.248620      4.170168      2.269771
-27   DOT  Close_t+90      9.316324      5.374049      8.662280      4.916107
-28   ETH   Close_t+1    114.695488     74.892581    109.377821     78.308911
-29   ETH   Close_t+7    267.933617    196.371497    298.829880    217.891946
-
-
+| Coin | Horizon    | RF_RMSE   | RF_MAE   | XGB_RMSE  | XGB_MAE  |
+|------|------------|----------:|---------:|----------:|---------:|
+| ADA  | Close_t+1  | 0.0254    | 0.0167   | 0.0283    | 0.0187   |
+| ADA  | Close_t+7  | 0.0703    | 0.0486   | 0.0762    | 0.0524   |
+| ADA  | Close_t+30 | 0.1992    | 0.1277   | 0.2040    | 0.1256   |
+| ADA  | Close_t+90 | 0.3243    | 0.2178   | 0.3162    | 0.2090   |
+| AVAX | Close_t+1  | 2.3379    | 1.6265   | 2.6335    | 1.8406   |
+| AVAX | Close_t+7  | 6.4053    | 4.6710   | 6.5166    | 4.8704   |
+| AVAX | Close_t+30 |13.7672    |10.2980   |13.1476    | 9.9601   |
+| AVAX | Close_t+90 |25.2420    |22.0641   |26.5681    |21.4741   |
+| BCH  | Close_t+1  |19.5183    |12.7554   |19.1331    |12.3308   |
+| BCH  | Close_t+7  |49.2207    |35.0985   |49.5446    |32.6028   |
+| BCH  | Close_t+30 |101.6945   |73.4903   |86.2471    |60.7858   |
+| BCH  | Close_t+90 |262.5593   |180.4049  |243.6435   |163.8554  |
+| BNB  | Close_t+1  |28.0218    |17.7690   |36.4836    |23.1028   |
+| BNB  | Close_t+7  |96.9937    |60.0029   |65.9900    |46.1683   |
+| BNB  | Close_t+30 |121.5361   |100.7396  |116.6160   |98.3403   |
+| BNB  | Close_t+90 |199.9403   |174.5667  |198.9639   |174.2621  |
+| BTC  | Close_t+1  |7386.9672  |3532.1421 |7557.0492  |3700.3522 |
+| BTC  | Close_t+7  |11818.6349 |8935.6509 |10770.6256 |7778.2038 |
+| BTC  | Close_t+30 |18585.1626 |15604.1707|19051.8251 |15744.2879|
+| BTC  | Close_t+90 |31147.4449 |28158.0800|31081.8367 |28051.5613|
+| DOGE | Close_t+1  |0.0176     |0.0085    |0.0166     |0.0097    |
+| DOGE | Close_t+7  |0.0415     |0.0250    |0.0358     |0.0219    |
+| DOGE | Close_t+30 |0.0804     |0.0485    |0.0762     |0.0443    |
+| DOGE | Close_t+90 |0.1068     |0.0613    |0.1069     |0.0618    |
+| DOT  | Close_t+1  |0.3714     |0.2578    |0.4844     |0.2864    |
+| DOT  | Close_t+7  |1.6431     |1.0098    |1.4937     |0.9805    |
+| DOT  | Close_t+30 |4.3402     |2.2486    |4.1702     |2.2698    |
+| DOT  | Close_t+90 |9.3163     |5.3740    |8.6623     |4.9161    |
+| ETH  | Close_t+1  |114.6955   |74.8926   |109.3778   |78.3089   |
+| ETH  | Close_t+7  |267.9336   |196.3715  |298.8299   |217.8919  |
+| ...  | ...        | ...       | ...      | ...       | ...      |
 
 
 ---
@@ -359,6 +358,12 @@ Below is a sample side-by-side bar plot (from the notebooks) comparing RMSE for 
    - Visit `http://localhost:3000` => Interact with the UI, pick a coin/horizon => The app calls `http://localhost:5000/api/predict`.
 
 ---
+## Visuals 
+![image](https://github.com/user-attachments/assets/f07abaa9-d4bc-4b56-9208-7f736f9c6277)
+
+![image](https://github.com/user-attachments/assets/226e32f9-f22c-4f85-9291-44b1d1206987)
+
+![image](https://github.com/user-attachments/assets/15a9c67e-7cad-4c59-810b-16154e227ac3)
 
 
 ## Future Improvements
