@@ -189,7 +189,7 @@ Below is a sample side-by-side bar plot (from the notebooks) comparing RMSE for 
    - Visit `http://localhost:3000` => Interact with the UI, pick a coin/horizon => The app calls `http://localhost:5000/api/predict`.
 
 ---
-## Visuals 
+## Visuals (Ex from traning, each coin has its own chart notebooks sections of code)
 ![image](https://github.com/user-attachments/assets/f07abaa9-d4bc-4b56-9208-7f736f9c6277)
 
 ![image](https://github.com/user-attachments/assets/226e32f9-f22c-4f85-9291-44b1d1206987)
