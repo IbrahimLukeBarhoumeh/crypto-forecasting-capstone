@@ -181,23 +181,6 @@ An end-to-end **multi-horizon forecasting** project that marries **time-series a
 
 ---
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Data Source & Preprocessing](#data-source--preprocessing)
-3. [Feature Engineering](#feature-engineering)
-4. [Modeling Approaches](#modeling-approaches)
-   - [Baseline Models](#baseline-models)
-   - [Advanced Models](#advanced-models)
-5. [Key Results & Highlights](#key-results--highlights)
-6. [Notebooks & Scripts](#notebooks--scripts)
-7. [Deployment & Usage](#deployment--usage)
-8. [Project Structure](#project-structure)
-9. [Future Improvements](#future-improvements)
-10. [References & License](#references--license)
-11. [Contact](#contact)
-
----
-
 ## Project Overview
 
 **Motivation**  
